@@ -13,11 +13,33 @@
           <p> Soy una persona proactiva, con un buen desempeño en trabajo en equipo, comunicacion efectiva, asi como tambien <br>
              el desarrollo de habilidades blandas, felxibilidad y dinamismo  </p>  <!-- cambiar esto -->
 
-            <img src="foto perfil.jpg" />
+            <img src="imagenes/foto perfil.jpg" width="400" height="700"/> <!--width es ancho de la im , height es el alto-->
 
-
+            <hr>
              <a target="_blank" href="https://github.com/belupileci"> mi github </a> <br>
              <a target="_blank" href=https://www.linkedin.com/in/maria-belen-pileci-16261a31a> mi linkedin </a>
+
+        
+
+
+
+
+        <h3> Apartado de Contacto</h3>
+           <p> Contactate conmigo a travez del siguiente formulario</p>
+        <form action="/formulario" method="post">
+           <label for="nombre y apellido"> Nombre y Apellido </label>  <!-- label es etiqueta para dar nombre al input de que se pide, id pra fijarla-->
+            <input type="text"  id="nombre y apellido " name="nombre y apellido"  placeholder=" Ingrese su texto aqui"  /> <br> <br>
+
+            <label for="mail"> Mail </label>
+            <input type="email"  id="mail" name="mail"  placeholder=" Ingrese su texto aqui" /> <br> <br>
+
+            <label for="comentario"> Comentario </label>
+            <textarea cols="50" rows="10"  id="comentario" name="comentario" placeholder="Ingrese su texto aqui"> </textarea> <br> <br>   <!-- cols ancho, rows largo-->
+            
+            <!-- type: otorga el tipo de input que es, texto, boton etc. placeholder indica la letra suave en gris para indicar que hay que escribir -->
+            
+            <button type="submit"> Enviar</button> <!-- o puedo hacerlo type buttom y darle su comportamiento en js-->
+        </form>
 
     </header>
 
